@@ -5,8 +5,10 @@
 
 using namespace std;
 
+static int yyparse(void);
+
+
 int main()
 {
-	cout << "Hello CMake." << endl;
-	return 0;
+	return yyparse();	// this isn't working yet, obviously
 }
